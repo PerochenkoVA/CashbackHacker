@@ -20,4 +20,7 @@ jobs:
         cache: gradle
     
     - name: Run the Gradle package task
-      run: ./gradlew -b ci.gradle package  chmod +x gradlew
+      run: chmod +x gradlew
+    - name: Build with Gradle
+      run: ./gradlew -b ci.gradle package  
+
