@@ -12,6 +12,7 @@ dependencies {
     testCompile 'org.testng:testng:6.9.4'
     implementation 'org.junit.jupiter:junit-jupiter:5.7.0'
     testImplementation 'junit:junit:4.13'
+    testImplementation group: 'org.testng', name: 'testng', version: '7.4.0'
     
 }
 
