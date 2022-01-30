@@ -3,7 +3,11 @@ package ru.netology.auto;
 
 import static org.junit.Assert.assertEquals;
 
+
 import org.junit.jupiter.api.Test;
+
+import org.testng.annotations.Test;
+
 import org.junit.Assert;
 
 
@@ -29,4 +33,6 @@ public class CashbackHackServiceTest {
 
         Assert.assertEquals(expected, actual);
     }
+
 }
+
