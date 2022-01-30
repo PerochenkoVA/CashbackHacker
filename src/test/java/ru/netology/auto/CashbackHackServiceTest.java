@@ -30,7 +30,7 @@ public class CashbackHackServiceTest {
         Assert.assertEquals(expected, actual);
     }
 
-    @Test
+    @org.junit.Test
     void calculateOneThousand(){
         CashbackHackService service = new CashbackHackService();
         int amount = 1000;
