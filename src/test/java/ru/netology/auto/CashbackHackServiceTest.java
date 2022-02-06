@@ -4,9 +4,9 @@ package ru.netology.auto;
 import static org.junit.Assert.assertEquals;
 
 
-import org.junit.jupiter.api.Test;
+//import org.junit.jupiter.api.Test;
 
-import org.testng.annotations.Test;
+//import org.testng.annotations.Test;
 
 import org.junit.Assert;
 
